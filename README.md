@@ -1,1 +1,1 @@
-# js-maze
+# JS Maze
