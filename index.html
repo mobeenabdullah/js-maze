@@ -9,9 +9,28 @@
         body {
             margin: 0;;
         }
+        .hidden {
+            display: none !important;
+        }
+        h1 {
+            color: #FFF;
+            font-size: 64px;
+        }
+        .winner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: 1;
+            width: 100vw;
+            height: 100vh;
+        }
     </style>
 </head>
 <body>
+    <div class="winner hidden">
+        <h1>You Win!</h1>
+    </div>
 
     <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
